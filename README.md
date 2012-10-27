@@ -5,7 +5,13 @@ Have you ever been annoyed that Twilio's log screen displays times in PDT only?
 
 ![Twilio Interface Before](http://media.tumblr.com/tumblr_mckaax2Lhl1rndbsl.png "Twilio Interface Before")
 
-We rely heavily on Twilio at [OpenRent](http://www.openrent.co.uk) - and sometimes using their logs can be useful. Using the time in GMT is extra handy.
+It's been reported before:
+
+http://forum.twilio.com/twilio/topics/can_you_display_log_in_the_my_timezone
+
+http://forum.twilio.com/twilio/topics/timezones_for_the_calls_logs
+
+And we rely heavily on Twilio at [OpenRent](http://www.openrent.co.uk) - where sometimes using their logs can be very useful. Using the time in GMT though is extra handy.
 
 This bookmarklet will convert the times to local time so it looks like this:
 
