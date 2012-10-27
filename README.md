@@ -29,3 +29,8 @@ If you don't want to link to GitHub you can just use the following as your bookm
 ```javascript
 javascript:$('.date a').each(function(){ $(this).text(new Date($(this).text().toString()).toString()) });
 ```
+
+Compatability
+-------------------------
+Tested and written in Chrome.
+Requires ability to parse 'HH:MM:SS PDT YYYY-MM-DD' into js Date object.
