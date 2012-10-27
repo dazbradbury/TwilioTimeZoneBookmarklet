@@ -33,4 +33,5 @@ javascript:$('.date a').each(function(){ $(this).text(new Date($(this).text().to
 Compatability
 -------------------------
 Tested and written in Chrome.
-Requires ability to parse 'HH:MM:SS PDT YYYY-MM-DD' into js Date object.
+
+Requires ability to parse ```'HH:MM:SS PDT YYYY-MM-DD'``` into js Date object.
