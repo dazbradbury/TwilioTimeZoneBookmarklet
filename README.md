@@ -25,7 +25,7 @@ Go [here](http://currentlycoding.tumblr.com/post/34424496794/twilio-timezone-boo
 Or you can create a new bookmarklet and set the link to:
 
 ```javascript
-javascript:(function()%7Bdocument.body.appendChild(document.createElement('script')).src='https://raw.github.com/dazbradbury/TwilioTimeZoneBookmarklet/master/twiliotimezonebookmarklet.js';%7D)();
+javascript:(function()%7Bdocument.body.appendChild(document.createElement('script')).src='https://raw.github.com/dazbradbury/TwilioTimeZoneBookmarklet/master/twiliotimezonebookmarklet.js?' + new Date().getTime();;%7D)();
 ```
 
 Obviously - this could break at any time if twilio change their log screens, but we'll try to keep it up to date.
